@@ -11,7 +11,7 @@ public class Controller {
     @RequestMapping("/names/{name}")
     public String demoTest(@PathVariable String name) {
 
-        return "Hello " + name;
+        return "Hello " + name + " !";
 
     }
 
