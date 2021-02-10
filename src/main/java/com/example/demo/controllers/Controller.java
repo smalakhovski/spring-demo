@@ -13,6 +13,7 @@ public class Controller {
 
         System.out.println("This is a Git Lesson 1");
         System.out.println("This is a Git Lesson 2");
+        System.out.println("This is a Git Lesson 3 local");
 
         return "Hello Hello Hello " + name;
 
