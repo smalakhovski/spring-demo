@@ -12,6 +12,7 @@ public class Controller {
     public String demoTest(@PathVariable String name) {
 
         System.out.println("This is a Git Lesson 1");
+        System.out.println("This is a Git Lesson 2");
 
         return "Hello Hello Hello " + name;
 
